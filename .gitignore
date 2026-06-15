@@ -1,0 +1,34 @@
+# --- Added for GitHub upload (safety) ---
+# Secrets
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+# Dependencies
+node_modules/
+vendor/
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+# Build artifacts
+/build/
+dist/
+.next/
+out/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+# Archives & binaries
+*.zip
+*.rar
+*.7z
+*.exe
+*.msi
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
